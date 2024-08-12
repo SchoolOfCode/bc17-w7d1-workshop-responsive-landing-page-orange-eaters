@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.wrapper {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  font-family: "Aleo", serif;
+}
+
+.site-header {
+  grid-area: header;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.site-main {
+  grid-area: main;
+  padding: 0 1rem;
+}
+.site-footer {
+  grid-area: footer;
+}
+
+/* Hero */
+.hero-text {
+  background-color: orange;
+  padding: 1rem;
+}
+.hero-text h1 {
+  font-size: 3.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.hero-text h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.hero-text h3 .colour-change {
+  color: white;
+}
+
+/* section */
+section {
+  margin: 1rem;
+  width: 100%;
+}
+
+.works h2 {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 1rem 0;
+}
+.works div {
+  margin-bottom: 1rem;
+}
+/* section call */
+.call {
+  border-bottom: 1px solid grey;
+  padding: 0 0 1rem 0;
+}
+
+.section-img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.call h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.call p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* section we-come */
+.we-come {
+  border-bottom: 1px solid grey;
+  padding: 0 0 1rem 0;
+}
+
+.section-img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.we-come h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.we-come p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* recommend */
+.recommend {
+  padding: 0 0 1rem 0;
+}
+
+.section-img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.recommend h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.recommend p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* footer */
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 1rem;
+}
