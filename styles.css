@@ -163,13 +163,32 @@ section {
   .hero {
     display: grid;
     grid-template-areas: "left right";
-    grid: 1rem;
+    
+    justify-items: center;
   }
   .hero-image {
     grid-area: left;
   }
   .hero-text {
     grid-area: right;
+    height: 300px;
+  
+  }
+
+  .works{
+    display: grid;
+
+  }
+
+  .cards{
+    display:flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .call-p{
+    width: 75%;
+  
   }
   /* wors make grid 3 column */
 }
