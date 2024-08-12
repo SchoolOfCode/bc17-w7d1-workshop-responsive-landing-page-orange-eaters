@@ -160,5 +160,16 @@ section {
       "footer footer footer";
   }
   /* hero make grid 2 column */
+  .hero {
+    display: grid;
+    grid-template-areas: "left right";
+    grid: 1rem;
+  }
+  .hero-image {
+    grid-area: left;
+  }
+  .hero-text {
+    grid-area: right;
+  }
   /* wors make grid 3 column */
 }
