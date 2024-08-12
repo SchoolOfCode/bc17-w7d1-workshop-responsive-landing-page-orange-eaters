@@ -9,9 +9,11 @@
 img {
   width: 100%;
 }
+
 ul {
   list-style-type: none;
 }
+
 .wrapper {
   width: 100dvw;
   height: 100dvh;
@@ -34,6 +36,7 @@ ul {
   grid-area: main;
   padding: 0 1rem;
 }
+
 .site-footer {
   grid-area: footer;
 }
@@ -59,7 +62,7 @@ ul {
 
 /* section */
 section {
-  margin: 1rem;
+  margin: 1rem 0;
   width: 100%;
 }
 
