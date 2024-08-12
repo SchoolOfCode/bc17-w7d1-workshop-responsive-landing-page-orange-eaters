@@ -146,6 +146,19 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: grey;
+  background-color: #8080805e;
   padding: 1rem;
+}
+
+/* media query */
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "footer footer footer";
+  }
+  /* hero make grid 2 column */
+  /* wors make grid 3 column */
 }
